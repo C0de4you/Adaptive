@@ -1,0 +1,81 @@
+@media screen and (max-width:1200px) {
+    .header-bar-menu {
+        display: none;
+    }
+    
+    .header-align {
+        padding: 0 2%;
+    }
+
+    .header-slider-center {
+        margin-left: 5%;
+    }
+
+    .container-main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .item__desktop {
+        display: none;
+    }
+
+    .header-ipad-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(253, 166, 135);
+        width: 96%;
+        margin: 0 2%;
+        padding: 0 2%;
+        height: 48px;
+        margin-bottom: 17px;
+        box-sizing: border-box;
+    }
+
+    .header-ipad-menu__text {
+        font-size: 18px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+    
+    .header-ipad-menu:hover {
+        background-color: rgb(253, 146, 135);
+        cursor: pointer;
+    }
+    
+    .header-bar {
+        padding: 0 2%;
+    }
+    
+    .container-item {
+        margin: 30px 3%;
+    }
+    
+    .header__shadow {
+        width: 25%;
+    }
+    
+    .footer__desktop {
+        display:  none;
+    }
+    
+    .footer__ipad {
+        display: block;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer__ipad .footer-info-block {
+        padding-right: 6%;
+        box-sizing: border-box;
+    }
+    
+    .container-brands__header {
+        width: 20%;
+    }
+}

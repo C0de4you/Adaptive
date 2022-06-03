@@ -1,0 +1,305 @@
+@media (max-width:788px) {
+
+    .header-align {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+
+    .header-custom {
+        background-color: rgb(250, 250, 250);
+        height: 96px;
+        font-size: 30px;
+        font-family: "Arial";
+        color: rgb(131, 131, 131);
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+
+    .header-custom__phone {
+        font-size: 30px;
+    }
+
+    .header-navigation {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .header-navigation-magnifier {
+        padding: 21px 29px;
+        height: 88px;
+    }
+
+    .header-navigation-magnifier__img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .header-navigation-account {
+        padding: 29px 0;
+        height: 88px;
+    }
+
+    .header-navigation-account__img {
+        transform: scale(1.8);
+        margin-top: 10px;
+    }
+
+    .header-navigation-account__text {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .header-navigation-currency {
+        padding: 29px 40px;
+        height: 88px;
+        border-left: none;
+    }
+
+    select {
+        font-size: 30px;
+        height: auto;
+        padding: 0;
+    }
+
+    .select {
+        width: 85px;
+    }
+
+    .select::after {
+        transform: scale(3) translateY(3px) translateX(4px);
+    }
+
+    .header-bar {
+        display: block;
+        height: auto;
+        margin: 23px 0;
+    }
+
+    .header-bar-align {
+        display: block;
+    }
+
+    .header-bar-cart {
+        height: auto;
+    }
+
+    .header-bar-cart-align {
+        height: 100%;
+        width: 100%;
+    }
+
+    .header-bar-cart__info {
+        font-size: 30px;
+    }
+
+    .header-bar-cart__logo {
+        width: 51px;
+        height: 49px;
+        padding: 23px 0;
+    }
+
+    .header-bar__logo {
+        display: none;
+    }
+
+    .header-logo-iphone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .header-logo-iphone__img {
+        margin-top: 10px;
+    }
+
+    .header-logo-iphone__l,
+    .header-logo-iphone__kshop {
+        font-size: 80px;
+        font-family: "Trebuchet MS", sans-serif;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .header-ipad-menu {
+        padding: 33px 2%;
+    }
+
+    .header-ipad-menu__text {
+        font-size: 30px;
+    }
+
+    .header-ipad-menu__img {
+        width: 33px;
+        height: 30px;
+    }
+
+    .header-slider,
+    .container-main,
+    .container-brands,
+    .container-about,
+    .footer-payments,
+    .footer-info,
+    .footer__ipad,
+    .container-categories-bar,
+    .header__sliderbar,
+    .item__ipad,
+    .footer-menu__list,
+    .header-iphone-desktop,
+    .container-social__stayupdate,
+    .header-bar-cart__selector {
+        display: none;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .container-social {
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-sales-bar {
+        padding-top: 0;
+    }
+
+    .container__load-button {
+        display: block;
+    }
+
+    .container-categories-button-background {
+        background-color: rgb(255, 166, 135);
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-sales-button {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .container__load-button:hover {
+        background-color: rgb(255, 146, 135);
+        cursor: pointer;
+    }
+
+    .container-sales-slaider {
+        height: 430px;
+    }
+
+    .container-categories {
+        height: auto;
+    }
+
+    .footer-iphone-menu_png {
+        display: block;
+    }
+
+    .footer-iphone-menu_png:hover {
+        cursor: pointer;
+    }
+
+    .container-social-align-1 {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        padding: 0 2%;
+        height: 91px;
+        margin-bottom: 25px;
+    }
+
+    .container-social-email__input {
+        background-color: rgb(237, 237, 237);
+        width: 100%;
+        height: 91px;
+    }
+
+    .container-social-align-2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-social-email {
+        width: 100%;
+        display: flex;
+        margin-left: 0;
+    }
+
+    .container-social-email__input {
+        font-size: 30px;
+        padding: 37px 20px;
+    }
+
+    .container-social-email__button {
+        width: 96px;
+        height: 88px;
+    }
+
+    .container-social-email__button i {
+        transform: scale(3);
+    }
+
+    .container-social__findus {
+        font-size: 26px;
+    }
+
+    .container-social__social-networks li {
+        width: 89px;
+        height: 88px;
+    }
+
+    .container-social__social-networks li:nth-child(even) {
+        background-color: rgb(237, 237, 237);
+    }
+
+    .header-iphone-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        background-color: rgb(244, 132, 93);
+        padding: 33px 3%;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .header-iphone-menu:hover {
+        background-color: rgb(244, 152, 93);
+        cursor: pointer;
+    }
+
+    .header-iphone-menu i {
+        transform: scaleY(0.8);
+    }
+
+    .footer__rights {
+        font-size: 24px;
+    }
+    
+    .footer-menu {
+        padding: 28px 5%;
+    }
+    
+    
+    .select__currency {
+        padding-left: 0;
+    }
+    
+    .header-bar-cart::after {
+        display: none;
+    }
+}
